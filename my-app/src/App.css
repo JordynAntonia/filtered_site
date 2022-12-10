@@ -1,5 +1,6 @@
 ul{
     display: flex;
+    float: left;
     padding: auto 100px;
     text-align: center;
     justify-content: space-around;
@@ -24,11 +25,23 @@ a {
     display: flex;
     justify-content: space-around;
     margin: 15px;
+    flex-wrap: wrap;
 
 }
 .logo {
     display: flex;
     text-align: left;
+    font-size: 25px;
+    font-family: 'Gill Sans';
+    margin-left: -300px;
+    margin-bottom: 25px;
+    
 
+
+}
+
+.search {
+    display: flex;
+    margin-left: 100px;
 
 }

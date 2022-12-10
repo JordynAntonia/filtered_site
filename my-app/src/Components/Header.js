@@ -5,14 +5,21 @@ export default function Header () {
         <div className="header">
 
             <p className="logo">
-                Sephora The ReBrand
-            </p>
+            
+                S E P H O R A 
 
-            <div id="container">
-                <div id="search">
+                <div className="search" id="search">
                     <label for="searchInput"></label>
                     <input id="searchInput" type="text" placeholder="Search"></input>
                 </div>
+
+            </p>
+
+            <div id="container">
+                {/* <div id="search">
+                    <label for="searchInput"></label>
+                    <input id="searchInput" type="text" placeholder="Search"></input>
+                </div> */}
             <button className="fav-btn">
                 Favorites
             </button>
